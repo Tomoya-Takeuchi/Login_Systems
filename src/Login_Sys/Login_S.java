@@ -120,7 +120,7 @@ public class Login_S {
 			public void actionPerformed(ActionEvent e) {
 
 				JFrame frmLoginSystem = new JFrame("Exit");
-				if (JOptionPane.showConfirmDialog(frmLoginSystem,  "Confirm if you want to exit", "Login Systems",
+				if (JOptionPane.showConfirmDialog(frmLoginSystem,  "本当に終了しますか？", "Login Systems",
 				JOptionPane.YES_NO_OPTION)== JOptionPane.YES_NO_OPTION) {
 				System.exit(0);
 				}
